@@ -95,6 +95,11 @@ namespace ModTask
                    
                     ts.Connect();
                 }
+                if (String.IsNullOrEmpty(username) && String.IsNullOrEmpty(password) && String.IsNullOrEmpty(domain) && !String.IsNullOrEmpty(serverName))
+                {
+
+                   ts.Connect(serverName);
+                }
 
                 
                 
