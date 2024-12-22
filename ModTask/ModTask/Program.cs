@@ -309,7 +309,7 @@ namespace ModTask
             [Option('t', "taskName",HelpText ="Task to Modify - To be Used with modify/select mode")]
             public String taskName { get; set; }
 
-            [Option('s', "servername",HelpText ="Server to connect to")]
+            [Option('s', "servername",HelpText =" Remote Server to connect to - Remote Only")]
             public String servername { get; set; }
 
             [Option('u', "username",HelpText ="Username to Connect With - Not including this option will cause the application to run as the current user - Remote Only")]
